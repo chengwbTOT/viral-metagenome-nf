@@ -1,0 +1,20 @@
+# Nextflow temporary files and caches
+work/
+.nextflow/
+.nextflow.log*
+.nf_history
+*.html
+*.csv
+trace*
+timeline*
+report*
+dag*
+
+# Analysis outputs
+results/
+raw_data/
+
+# System and log files
+nohup.out
+.DS_Store
+*.out
